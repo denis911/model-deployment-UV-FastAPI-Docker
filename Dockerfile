@@ -25,3 +25,13 @@ EXPOSE 9696
 # --port 9696    → listen on port 9696
 ENTRYPOINT ["uvicorn", "predict:app", "--host", "0.0.0.0", "--port", "9696"]
 
+# (The comments are added by ChatGPT)
+
+# Build it:
+
+# docker build -t predict-churn .
+
+# And run it:
+
+# docker run -it --rm -p 9696:9696 predict-churn
+

@@ -64,6 +64,7 @@ def predict(customer: Customer) -> PredictResponse:
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=9696)
 
+# Cool auto documentation feature of fastapi - 
 # run docs in web browser http://localhost:9696/docs first - 
 # it will open a web page with API call description - 
 # so I can edit POST JSON parameters online - say select tenure etc..
@@ -72,4 +73,7 @@ if __name__ == "__main__":
 #   "churn_probability": 0.42227630449947207,
 #   "churn": false
 # }
+
+# if printable API docs are needed - use http://localhost:9696/redoc
+# and click << Download OpenAPI specification >>
 

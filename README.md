@@ -133,3 +133,4 @@ curl -X POST "http://localhost:9696/predict" \
 ## 🤝 Acknowledgments
 
 This project is based on the [Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) by DataTalks.Club.
+
